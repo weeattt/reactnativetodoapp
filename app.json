@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "react-native-todo",
+    "name": "WeEat",
     "slug": "react-native-todo",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -18,9 +18,14 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.jangjang",
+      "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
+      "package": "com.jangjang",
+      "versionCode": 1,
+      
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
